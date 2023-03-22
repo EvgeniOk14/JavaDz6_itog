@@ -1,7 +1,7 @@
 public class interOperationSys {
     public static void interfacеOperationSystem()
     {
-        System.out.println("Выберите объём жесткого диска: ");
+        System.out.println("Выберите операционную систему: ");
         System.out.println("""
                             1 - Linux
                             2 - Ubuntu

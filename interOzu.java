@@ -3,7 +3,7 @@ public class interOzu
    
     public static void interfacеOzu()
     {
-        System.out.println("Выберите операционную систему ОЗУ: ");
+        System.out.println("Выберите  ОЗУ: ");
         System.out.println("""
                             1 - DDR1
                             2 - DDR2

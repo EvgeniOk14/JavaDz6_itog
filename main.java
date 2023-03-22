@@ -1,3 +1,8 @@
+import java.util.HashSet;
+import java.util.Set;
+
+import org.xml.sax.SAXNotRecognizedException;
+
 public class main 
 {
     public static void main(String[] args) 
@@ -8,13 +13,9 @@ public class main
         NoteBook notebook4 = new NoteBook("ddr4","64","MacOS","Синий");
         NoteBook notebook5 = new NoteBook("DDR5","256","Windows","Белый");
         
-        // System.out.println(notebook1);
-        // System.out.println(notebook2);
-        // System.out.println(notebook3);
-        // System.out.println(notebook4);
-        // System.out.println(notebook5);
-        System.out.println("Магазин ноутбуков приветствуем Вас дорогой покупатель!\n "); 
-        interMain.interfaceMain();
-        condition1.oneCondition(notebook1, notebook2, notebook3, notebook4, notebook5);
+        System.out.println("\nМагазин ноутбуков приветствуем Вас дорогой покупатель!\n "); 
+        Set<NoteBook> listNotes = new HashSet<NoteBook>();
+       
+        start.startProgram(listNotes, notebook1, notebook2, notebook3, notebook4, notebook5);
     }
 }

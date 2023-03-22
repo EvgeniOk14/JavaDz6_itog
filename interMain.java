@@ -1,3 +1,4 @@
+
 public class interMain 
 {
     public static void interfaceMain()
